@@ -1,8 +1,14 @@
 body {
-    background-color: rgba(347, 37, 37, 0.979);
+    background-color: rgba(37, 37, 37, 0.979);
 }
 
 .text{
     background-color: black;
     color: black;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
