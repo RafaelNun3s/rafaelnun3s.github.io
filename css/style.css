@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(201, 201, 201, 0.979);
+    background-color: rgba(62, 64, 78, 0.979);
 }
 
 .text{
@@ -8,8 +8,5 @@ body {
 }
 
 .header {
-    border:1px solid black;
     position: sticky;
-    top: 0;
-    z-index: 999;
 }
