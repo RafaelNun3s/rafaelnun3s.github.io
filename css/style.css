@@ -10,3 +10,7 @@ body {
 .header {
     position: sticky;
 }
+
+.sticky-top {
+    top: 80px;
+}
