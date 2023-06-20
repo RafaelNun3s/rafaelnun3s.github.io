@@ -1,16 +1,37 @@
+
+ html,
 body {
-    background-color: rgba(62, 64, 78, 0.979);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(62, 64, 78, 0.979);
 }
 
-.text{
-    background-color: black;
-    color: black;
+body {
+  display: flex;
+  flex-direction: column;
+}
+.sticky-top {
+    top: 80px;
 }
 
 .header {
     position: sticky;
 }
 
-.sticky-top {
-    top: 80px;
+.text{
+    background-color: black;
+    color: black;
 }
+.content {
+  flex: 1;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+footer {
+  margin-top: auto;
+}
+  
